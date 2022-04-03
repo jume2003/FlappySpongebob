@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.flappyspongebob.GameView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    />
+
+    <com.example.flappyspongebob.BoardBox
+        android:id="@+id/boarbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+THIS IS A DEMO FOR TEST (This sentence will be remove) 这是一个演示程序不得用于商用!\n
+THIS IS A DEMO FOR TEST (This sentence will be remove) 这是一个演示程序不得用于商用!\n
+"
+        android:textSize="30dp"
+        />-->
+
+</RelativeLayout>
